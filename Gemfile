@@ -12,7 +12,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'carrierwave'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
-
+gem 'fog'
+gem 'devise'
+gem "mini_magick"
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
